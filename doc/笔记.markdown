@@ -1,0 +1,14 @@
+# 项目相关问题
+### 1.分布式系统id生成策略
+参考资料：分布式系统唯一ID生成方案汇总：https://www.cnblogs.com/haoxinyue/p/5208136.html
+
+1.mysql的自动增长 AUTO_INCREMENT，添加记录时后第一次添加id=1，第二次id=2...
+
+2.redis的原子操作
+
+3.mp(mybatis-plus)自带的增长策略，使用snowflake算法
+### 2.mybatis_plus的自动填充功能。
+比如数据库表中有create_time，update_time字段
+
+
+
